@@ -10,6 +10,7 @@
 
 </head>
 <body>
+    <!-- Numeri casuali e timer -->
     <div class="container d-flex justify-content-center">
         <div id="start-game" class="text-center">
             <h1>Giochiamo insieme</h1>
@@ -18,6 +19,24 @@
             <button id="start-btn" class="btn bg-primary">Iniziamo</button>
         </div>
     </div>
+
+    <!-- Inputs dell'utente e risultati -->
+    <div id="input-area" class="d-none">
+        <h1 class="text-center">Indovina i numeri</h1>
+        <div class="mb-3">
+            <input type="number" class="form-control mb-2 w-50 m-auto" placeholder="Numero 1">
+            <input type="number" class="form-control mb-2 w-50 m-auto" placeholder="Numero 2">
+            <input type="number" class="form-control mb-2 w-50 m-auto" placeholder="Numero 3">
+            <input type="number" class="form-control mb-2 w-50 m-auto" placeholder="Numero 4">
+            <input type="number" class="form-control mb-2 w-50 m-auto" placeholder="Numero 5">
+        </div>
+        
+        <div class="d-flex justify-content-center">
+            <button id="user-btn" class="btn btn-primary mt-3">Conferma</button>
+        </div>
+    </div>
+    
+    <div id="result" class="text-center mt-3"></div>
     
     <script src="./js/script.js"></script>
 </body>
